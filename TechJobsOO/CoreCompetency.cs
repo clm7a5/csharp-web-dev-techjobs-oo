@@ -39,13 +39,10 @@ namespace TechJobsOO
         }
         
        /* public override string ToString()
-        {
-           
+        {           
             return Value;
         }*/
-
-        
-
+         
     }
 
 }

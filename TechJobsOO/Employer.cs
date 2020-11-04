@@ -1,7 +1,6 @@
 ﻿using System;
 namespace TechJobsOO
-{
-    
+{    
     public class Employer : JobField
     {
         
@@ -9,8 +8,6 @@ namespace TechJobsOO
         {
             
         }
-
-
 
     }
 }

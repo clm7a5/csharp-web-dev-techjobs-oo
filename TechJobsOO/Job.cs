@@ -6,11 +6,9 @@ namespace TechJobsOO
     public class Job
     {
         public int Id { get; }
-        private static int nextId = 1;
-        
+        private static int nextId = 1;        
 
-        public string Name { get; set; }
-        
+        public string Name { get; set; }       
         public Location JobLocation { get; set; }
         public Employer EmployerName { get; set; }       
         public PositionType JobType { get; set; }
@@ -22,7 +20,6 @@ namespace TechJobsOO
             Id = nextId;
             nextId++;
         }
-
         
         public Job(string name, Employer employerName, Location jobLocation, PositionType jobType, CoreCompetency jobCoreCompetency) : this()
         {
@@ -34,7 +31,6 @@ namespace TechJobsOO
             JobCoreCompetency = jobCoreCompetency;
 
         }
-
        
         public override string ToString()
         {
@@ -83,8 +79,6 @@ namespace TechJobsOO
             
             return HashCode.Combine(Id, Name, EmployerName, JobLocation, JobType, JobCoreCompetency);
         }
-
-
         
     }
 }

@@ -5,8 +5,7 @@ namespace TechJobsOO
     {
         
         public Location(string value) : base(value)
-        {
-            
+        {            
         }
 
     }

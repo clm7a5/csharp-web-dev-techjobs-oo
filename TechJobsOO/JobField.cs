@@ -8,9 +8,7 @@ namespace TechJobsOO
     {
         public int Id { get; set; }
         private static int nextId = 1;
-
         public string Value { get; set; }
-
         public JobField()
         {
             Id = nextId;
@@ -21,8 +19,6 @@ namespace TechJobsOO
         {
             Value = value;
         }
-
-
 
         public override string ToString()
         {

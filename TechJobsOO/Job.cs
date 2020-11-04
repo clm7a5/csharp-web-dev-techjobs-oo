@@ -29,7 +29,6 @@ namespace TechJobsOO
             JobLocation = jobLocation;
             JobType = jobType;
             JobCoreCompetency = jobCoreCompetency;
-
         }
        
         public override string ToString()
